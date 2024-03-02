@@ -6,3 +6,4 @@ This project is deployed [here](https://octopus-app-44hfo.ondigitalocean.app/). 
 
 Total credits: 10, 000
 Minimum credits needed to close voting: 10
+x
