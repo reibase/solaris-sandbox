@@ -4,14 +4,14 @@
 }
 
 body {
-    color: yellow;
-    background-color: darkslategrey;
+    color: yellowgreen;
+    background-color: rgb(22, 15, 63);
     font-family: sans-serif;
 
 }
 
 a {
-    color: yellow;
+    color: yellowgreen;
 }
 
 .content {
