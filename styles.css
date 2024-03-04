@@ -13,10 +13,10 @@ a {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    justify-content: center;
     font-size: 72px;
     line-height: 82px;
+    padding: 2rem;
 }
 
 .content span {
