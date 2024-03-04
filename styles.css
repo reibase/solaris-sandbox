@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     color: orange;
     background-color: navy;
@@ -11,9 +16,9 @@ a {
 
 .content {
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
     font-size: 72px;
     line-height: 82px;
     padding: 2rem;
@@ -21,5 +26,16 @@ a {
 
 .content span {
     margin: 2rem;
-    max-width: 700px;
+    max-width: 800px;
+}
+
+@media (max-width: 700px) {
+    .content {
+        padding: 0;
+        font-size: 66px;
+        line-height: 76px;
+    }
+    .content span {
+        margin: 1rem;
+    }
 }
