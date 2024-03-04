@@ -4,14 +4,14 @@
 }
 
 body {
-    color: hotpink;
-    background-color: mintcream;
+    color: yellow;
+    background-color: darkslategrey;
     font-family: sans-serif;
 
 }
 
 a {
-    color: hotpink;
+    color: yellow;
 }
 
 .content {
@@ -20,7 +20,7 @@ a {
     justify-content: center;
     height: 100vh;
     font-size: 72px;
-    line-height: 82px;
+    line-height: 92px;
     padding: 2rem;
 }
 
