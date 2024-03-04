@@ -4,14 +4,14 @@
 }
 
 body {
-    color: orange;
-    background-color: navy;
+    color: yellowgreen;
+    background-color: rgb(22, 15, 63);
     font-family: sans-serif;
 
 }
 
 a {
-    color: orange;
+    color: yellowgreen;
 }
 
 .content {
@@ -20,7 +20,7 @@ a {
     justify-content: center;
     height: 100vh;
     font-size: 72px;
-    line-height: 82px;
+    line-height: 92px;
     padding: 2rem;
 }
 
