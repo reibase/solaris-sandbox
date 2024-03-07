@@ -54,6 +54,11 @@ a {
     max-width: 700px;
 }
 
+.content .explainerText {
+    font-size: 20px;
+    line-height: 28px;
+}
+
 @media (max-width: 700px) {
     .githubButton {
     font-size: 14px;
@@ -70,5 +75,9 @@ a {
     }
     .content span {
         margin: 1rem;
+    }
+    .content .explainerText {
+        font-size: 16px;
+        line-height: 22px;
     }
 }
