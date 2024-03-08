@@ -5,4 +5,5 @@ This repository is a testing ground for Solaris, a platform to vote on pull requ
 This project is deployed [here](https://octopus-app-44hfo.ondigitalocean.app/). Changes to the main branch will automatically deploy.
 
 Total credits: 10, 000
+
 Minimum credits needed to close voting: 10
