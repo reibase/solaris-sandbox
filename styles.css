@@ -65,26 +65,29 @@ a {
 .content .explainerText {
     font-size: 20px;
     line-height: 36px;
+    width: 75%;
 }
 
 .imageContainer {
-    height: 320px;
-    width: 320px;
+    height: 400px;
+    width: 400px;
     display: block;
-    border-radius: 1000px;
-    margin: auto;
+    border-radius: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    background-image: url("");
+    background-image: url("https://film-grab.com/wp-content/uploads/photo-gallery/thumb/62%20(774).jpg?bwg=1547406511");
 }
 
 
 @media (max-width: 700px) {
+    body {
+        overflow-y: hidden;
+    }
     .githubButton {
-    font-size: 14px;
-    padding: 5px 15px 5px 15px;
+        font-size: 14px;
+        padding: 5px 15px 5px 15px;
     }
     .header {
         height: 2rem;
@@ -95,11 +98,11 @@ a {
     }
     .content {
         padding: 0;
-        font-size: 46px;
-        line-height: 56px;
+        font-size: 36px;
+        line-height: 46px;
     }
     .content span {
-        margin: 1rem;
+        margin: .5rem;
     }
     .content .explainerText {
         font-size: 16px;
