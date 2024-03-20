@@ -65,18 +65,20 @@ a {
 .content .explainerText {
     font-size: 20px;
     line-height: 36px;
+    width: 75%;
 }
 
 .imageContainer {
     height: 400px;
     width: 400px;
+    margin: auto;
     display: block;
-    border-radius: 1000px;
+    border-radius: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    background-image: url("https://images.bauerhosting.com/legacy/empire-tmdb/films/2103/images/qHo4hRPJMlcLrtehK9d1m2MTrj9.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80");
+    background-image: url("");
 }
 
 
