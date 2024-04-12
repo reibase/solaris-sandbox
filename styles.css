@@ -19,15 +19,16 @@ a {
     color: var(--primary);
 }
 
-a:hover {
-    text-decoration: none;
-}
 .header {
     height: 2rem;
     display: flex;
     align-items: end;
     justify-content: end;
     padding: 2rem 2rem 0rem 2rem;
+}
+
+.githublink:hover {
+    text-decoration: none;
 }
 
 .githubButton {
@@ -125,8 +126,8 @@ a:hover {
         padding: 5px 15px 5px 15px;
     }
     .header {
-        height: 2rem;
-        padding: .5rem;
+        height: 3rem;
+        padding: 1rem;
     }
     .contentWrapper {
         flex-direction: column;
